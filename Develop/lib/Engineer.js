@@ -2,7 +2,7 @@
 let Employee = require('./Employee');
 
 module.export = class Engineer extends Employee{
-    counstrauctor(GitHub, name , id, email){
+    constructor(GitHub, name , id, email){
         this.GitHub =GitHub;
         super(name , id, email);
     }

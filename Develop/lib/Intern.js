@@ -2,7 +2,7 @@
 let Employee = require('./Employee');
 
 module.export = class Intern extends Employee{
-    counstrauctor(school, name , id, email){
+    constructor(school, name , id, email){
         this.school =school;
         super(name , id, email);
     }
