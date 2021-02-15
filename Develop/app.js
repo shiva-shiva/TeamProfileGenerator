@@ -53,6 +53,47 @@ async function addRole(member){
 
 }
 
+function getHTMLModule(file) {
+  return readFile(file, "utf8");
+}
+ async function generateHtml(){
+    let Template = {
+      main: await getHTMLModule('./templates/main.html'),
+      Manager: await getHTMLModule("./templates/manager.html"),
+      Engineer: await getHTMLModule("./templates/engineer.html"),
+      Intern: await getHTMLModule("./templates/intern.html")
+    }
+
+
+    let employeesHTML = "";
+
+    for (let employee of employees){
+            console.log(employee.constructor.name);
+            let html = Template[employee.constructor.name]
+            .replace(/{% name %}/gi, employee.name)
+            .replace(/{% id %}/gi, employee.id)
+            .replace(/{% email %}/gi, employee.email);
+            switch (employee.constructor.name) {
+                case "Manager":
+                    html = html.replace(/{% officeNumber %}/gi, employee.officeNumber);
+                    break;
+                case "Engineer":
+                    html = html.replace(/{% github %}/gi, employee.github);
+                    break;
+                case "Intern":
+                    html = html.replace(/{% school %}/gi, employee.school);
+                    break;
+            }
+            employeesHTML += html;
+        }
+        let completeHTML = Template["Main"].replace(/{% employees %}/gi, employeesHTML);
+    
+        createHTML(completeHTML);
+    }
+   
+    async function createHTML(){
+      
+    }
 
 
 
