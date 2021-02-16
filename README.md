@@ -25,7 +25,8 @@ A Node command-line application that uses inquirer and takes in information abou
 *  inquirer that will prompt you for your inputs from the command line
 
 ## 💻usage
-*Instructions and examples for use:*</br> When you run node index.js, the application uses the inquirer package to prompt you in the command line with a series of questions about your Team members.
+*Instructions and examples for use:*</br> 
+When you run node index.js, the application uses the inquirer package to prompt you in the command line with a series of questions about your Team members.
 
 Application will be invoked by using the following command:
 
