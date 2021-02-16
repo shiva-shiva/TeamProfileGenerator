@@ -12,7 +12,7 @@ A Node command-line application that uses inquirer and takes in information abou
 
 ## ✨Demo
 
-![Demo](./src/readme.gif)
+![Demo](https://drive.google.com/file/d/1BjjBA9G24L1pKCoRnIfCp7WoI2N8dJM1/viewf)
 
  ## Table of Contents
 * [Description](#Description)
