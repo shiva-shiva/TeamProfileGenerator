@@ -49,6 +49,12 @@ Depending on employee role, additional prompts are presented
     Intern - school
     Then a team.html page will be generated in the output directory, that displays a nicely formatted team roster.
       
+## Features
+
+    JavaScript
+    Node.js
+    jest
+    npm
       
 ## 📝License
 MIT License<br/>
