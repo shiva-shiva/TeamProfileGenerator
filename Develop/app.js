@@ -77,7 +77,8 @@ async function generateHTML() {
     let employeesHTML = "";
 
     for (let employee of employees) {
-        let html = Template[employee.constructor.name]
+         let html = Template[employee.constructor.name]
+        .replace(/{{ role }}/gi, employee.getRole())
         .replace(/{{ name }}/gi, employee.name)
         .replace(/{{ id }}/gi, employee.id)
         .replace(/{{ email }}/gi, employee.email);
