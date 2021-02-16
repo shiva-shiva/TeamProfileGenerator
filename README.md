@@ -8,7 +8,7 @@
 
 ## Description 
 
-A Node command-line application that uses inquirer and takes in information about employees and generates an HTML webpage that displays summaries for each person.
+A Node command-line application that uses inquirer and takes in information about employees and generates an HTML webpage that displays summaries for each person.The team.html file is created in the output directory and can be found [here](https://drive.google.com/file/d/1BjjBA9G24L1pKCoRnIfCp7WoI2N8dJM1/view)
 
 ## ✨Demo
 
