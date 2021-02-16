@@ -1,7 +1,7 @@
 <div class="card employee-card mx-2">
-    <div class="card-header">
+    <div class="card-header" style="background-color:rgb(179, 178, 255)">
         <h2 class="card-title">{{ name }}</h2>
-        <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>{{ role }}</h3>
+        <h3 class="card-title"><i class="fas fa-user-graduate mr-2" style="color:rgb(4, 0, 255)"></i>{{ role }}</h3>
     </div>
     <div class="card-body">
         <ul class="list-group">
@@ -11,3 +11,14 @@
         </ul>
     </div>
 </div>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Newsreader&family=Oswald&display=swap');
+    div.card {
+      width: 250px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
+    }
+    body{
+     font-family: 'Oswald', sans-serif; 
+    }
+</style>
