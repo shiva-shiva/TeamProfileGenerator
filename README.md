@@ -22,7 +22,9 @@ A Node command-line application that uses inquirer and takes in information abou
 
 ## Installation
 *Steps required to install project and how to get the development environment running:*
-*  inquirer that will prompt you for your inputs from the command line
+
+    Download or clone this repository into your local computer.
+    In your terminal, browse to the folder and run npm install --production.
 
 ## 💻usage
 *Instructions and examples for use:*</br> 
@@ -47,7 +49,7 @@ Depending on employee role, additional prompts are presented
     Manager - office number
     Engineer - GitHub username
     Intern - school
-    Then a team.html page will be generated in the output directory, that displays a nicely formatted team roster.
+Then a team.html page will be generated in the output directory, that displays a nicely formatted team roster.
       
 ## Features
 
