@@ -1,16 +1,15 @@
-
 <div class="col-12 d-flex justify-content-center my-3">
-<div class="card employee-card mx-2">
-    <div class="card-header" style="background-color:rgb(223, 171, 142)">
-        <h2 class="card-title">{{ name }}</h2>
-        <h3 class="card-title"><i class="fas fa-mug-hot mr-2 " style="color:rgb(180, 70, 6)"></i>{{ role }}</h3>
+    <div class="card employee-card mx-2">
+        <div class="card-header" style="background-color:rgb(223, 171, 142)">
+            <h2 class="card-title">{{ name }}</h2>
+            <h3 class="card-title"><i class="fas fa-mug-hot mr-2 " style="color:rgb(180, 70, 6)"></i>{{ role }}</h3>
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                <li class="list-group-item">ID: {{ id }}</li>
+                <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
+                <li class="list-group-item">Office number: {{ officeNumber }}</li>
+            </ul>
+        </div>
     </div>
-    <div class="card-body">
-        <ul class="list-group">
-            <li class="list-group-item">ID: {{ id }}</li>
-            <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
-            <li class="list-group-item">Office number: {{ officeNumber }}</li>
-        </ul>
-    </div>
-</div>
 </div>
