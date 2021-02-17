@@ -23,7 +23,8 @@ A Node command-line application that uses inquirer and takes in information abou
 ## Installation
 *Steps required to install project and how to get the development environment running:*
 
-    Download or clone this repository into your local computer.
+    1-Download or clone this repository into your local computer.
+    2-npm install inquirer
     
 
 ## 💻usage
