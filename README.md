@@ -8,11 +8,11 @@
 
 ## Description 
 
-A Node command-line application that uses inquirer and takes in information about employees and generates an HTML webpage that displays summaries for each person.The team.html file is created in the output directory and can be found [here](https://drive.google.com/file/d/1BjjBA9G24L1pKCoRnIfCp7WoI2N8dJM1/view)
+A Node command-line application that uses inquirer and takes in information about employees and generates an HTML webpage that displays summaries for each person in team.The team.html file is created in the output directory and can be found [here](https://drive.google.com/file/d/1BjjBA9G24L1pKCoRnIfCp7WoI2N8dJM1/view)
 
 ## ✨Demo
 
-![Demo](https://drive.google.com/file/d/1BjjBA9G24L1pKCoRnIfCp7WoI2N8dJM1/viewf)
+![Demo](./Develop/dist/team.png)
 
  ## Table of Contents
 * [Description](#Description)
@@ -23,8 +23,8 @@ A Node command-line application that uses inquirer and takes in information abou
 ## Installation
 *Steps required to install project and how to get the development environment running:*
 
-    Download or clone this repository into your local computer.
-    In your terminal, browse to the folder and run npm install --production.
+    1-Download or clone this repository into your local computer.
+    2-In your terminal, browse to the folder and run npm install --production.
 
 ## 💻usage
 *Instructions and examples for use:*</br> 
